@@ -4,6 +4,7 @@ import com.codeisnotevil.minerslove.MinersLove;
 import com.codeisnotevil.minerslove.MinersLoveItemGroup;
 import com.codeisnotevil.minerslove.objects.blocks.BlockItemBase;
 import com.codeisnotevil.minerslove.objects.items.ItemBase;
+import com.codeisnotevil.minerslove.objects.items.MinersBackpack;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -18,7 +19,8 @@ public class ItemInit {
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item", ItemBase::new);
 
     //Normal Items -----------------------------------------------------------------------------------------------------
-
+    public static final RegistryObject<Item> MINERS_BACKPACK = ITEMS.register("miners_backpack",
+            MinersBackpack::new);
 
     //Crop Items/Seeds -------------------------------------------------------------------------------------------------
     public static final  RegistryObject<Item> FIRE_WHEAT_SEED = ITEMS.register( "fire_wheat_seed",
