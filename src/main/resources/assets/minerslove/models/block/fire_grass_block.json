@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "minerslove:blocks/fire_grass_block"
+  }
+}

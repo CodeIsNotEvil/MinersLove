@@ -1,0 +1,9 @@
+{
+    "item.minerslove.example_item": "Example Item",
+
+    "block.minerslove.ender_ore_block": "Ender Ore",
+    "block.minerslove.fire_grass_block": "Fire Grass",
+    "block.minerslove.fire_wheat": "Fire Wheat Seed",
+
+    "itemGroup.Miners Love": "Miners Love"
+}
