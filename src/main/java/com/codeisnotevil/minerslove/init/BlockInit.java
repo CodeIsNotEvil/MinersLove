@@ -4,6 +4,7 @@ import com.codeisnotevil.minerslove.MinersLove;
 
 import com.codeisnotevil.minerslove.objects.blocks.EnderOreBlock;
 import com.codeisnotevil.minerslove.objects.blocks.FireWheatCrop;
+import com.codeisnotevil.minerslove.objects.blocks.UpgradedChestBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.SoundType;
@@ -22,6 +23,9 @@ public class BlockInit {
                     .hardnessAndResistance(0.5f, 15.0f).sound(SoundType.WET_GRASS)));
 
     public static final RegistryObject<Block> ENDER_ORE_BLOCK = BLOCKS.register("ender_ore_block", EnderOreBlock::new);
+
+    public static final RegistryObject<Block> UPGRADED_CHEST_BLOCK = BLOCKS.register("upgraded_chest_block",
+            () -> new UpgradedChestBlock(Block.Properties.from(BlockInit.ENDER_ORE_BLOCK.get())));
 
     //Crops Blocks -----------------------------------------------------------------------------------------------------
     public static final RegistryObject<Block> FIRE_WHEAT_BLOCK = BLOCKS.register("fire_wheat_block",

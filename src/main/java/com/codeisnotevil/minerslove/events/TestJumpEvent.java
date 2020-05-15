@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = MinersLove.MOD_ID, bus = Bus.FORGE)
 public class TestJumpEvent {
-
+/*
     @SubscribeEvent
     public static void testJumpEvent(LivingEvent.LivingJumpEvent event){
         MinersLove.LOGGER.info("testJumpEventFired");
@@ -21,4 +21,6 @@ public class TestJumpEvent {
         //livingEntity.addPotionEffect(new EffectInstance(Effects.RESISTANCE,200,3));
         //livingEntity.setGlowing(true);
     }
+
+ */
 }

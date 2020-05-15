@@ -2,6 +2,8 @@ package com.codeisnotevil.minerslove;
 
 import com.codeisnotevil.minerslove.init.BlockInit;
 import com.codeisnotevil.minerslove.init.ItemInit;
+import com.codeisnotevil.minerslove.init.ModContainerTypes;
+import com.codeisnotevil.minerslove.init.ModTileEntityTypes;
 import com.codeisnotevil.minerslove.objects.blocks.FireWheatCrop;
 import com.codeisnotevil.minerslove.world.gen.OreGen;
 import net.minecraft.block.Blocks;
@@ -40,7 +42,8 @@ public class MinersLove
         //init RegistryHandlers
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
-        //ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
+        ModContainerTypes.CONTAINER_TYPES.register(modEventBus);
 
         instance = this;
 

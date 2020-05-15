@@ -1,11 +1,9 @@
 package com.codeisnotevil.minerslove.init;
 
 import com.codeisnotevil.minerslove.MinersLove;
-import com.codeisnotevil.minerslove.MinersLoveItemGroup;
 import com.codeisnotevil.minerslove.objects.blocks.BlockItemBase;
 import com.codeisnotevil.minerslove.objects.items.ItemBase;
 import com.codeisnotevil.minerslove.objects.items.MinersBackpack;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -32,5 +30,8 @@ public class ItemInit {
 
     public static final RegistryObject<Item> ENDER_ORE_BLOCK_ITEM = ITEMS.register("ender_ore_block",
             () -> new BlockItemBase(BlockInit.ENDER_ORE_BLOCK.get()));
+
+    public static final RegistryObject<Item> UPGRADED_CHEST_BLOCK_ITEM = ITEMS.register("upgraded_chest_block",
+            () -> new BlockItemBase(BlockInit.UPGRADED_CHEST_BLOCK.get()));
 
 }

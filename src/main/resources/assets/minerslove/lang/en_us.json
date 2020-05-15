@@ -1,8 +1,10 @@
 {
     "item.minerslove.example_item": "Example Item",
     "item.minerslove.miners_backpack": "Miners Backpack",
+    "container.upgraded_chest": "Upgraded Chest",
 
     "block.minerslove.ender_ore_block": "Ender Ore",
+    "block.minerslove.upgraded_chest_block": "Upgraded Chest",
     "block.minerslove.fire_grass_block": "Fire Grass",
     "block.minerslove.fire_wheat": "Fire Wheat Seed",
 
